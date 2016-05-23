@@ -22,7 +22,7 @@ public class Test_property {
         }
         public String readProperties(){
             Properties prop = new Properties();
-            try (InputStream in = new FileInputStream("C:\\Users\\stagiaire\\Documents\\NetBeansProjects\\mai_10_embedded_jetty_example\\bat.properties")) 
+            try (InputStream in = new FileInputStream("C:\\Users\\stagiaire\\Documents\\NetBeansProjects\\mai_23_embedded_jetty_example\\bat.properties")) 
             {
 		prop.load(in);
             }
